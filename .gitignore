@@ -1,0 +1,46 @@
+# -----------------
+# Python ignores
+# -----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -----------------
+# Virtual environments
+# -----------------
+.venv/
+venv/
+ENV/
+env/
+
+# -----------------
+# Environment files (API keys, secrets)
+# -----------------
+.env
+.env.*
+
+# -----------------
+# Jupyter & Notebooks
+# -----------------
+.ipynb_checkpoints
+*.ipynb
+
+# -----------------
+# IDE/editor specific
+# -----------------
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# -----------------
+# OS files
+# -----------------
+.DS_Store
+Thumbs.db
