@@ -17,7 +17,7 @@ newsApiKey = os.getenv("NEWS_API_KEY")
 load_dotenv()
 
 
-# Speak Function using "pyttsx3"
+# Speak Function using "pyttsx3 "
 def speak_old(text):
     engine.say(text)
     engine.runAndWait()
